@@ -1,0 +1,19 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "description": "Playwright E2E automation suite for SauceDemo using Page Object Model",
+  "type": "module",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:chromium": "playwright test --project=chromium",
+    "test:report": "playwright show-report"
+  },
+  "keywords": ["playwright", "e2e", "automation", "pom"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0"
+  }
+}
