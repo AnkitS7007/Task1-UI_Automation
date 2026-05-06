@@ -120,5 +120,3 @@ Tests run in a **parallel browser matrix** (Chromium · Firefox · WebKit). On f
 3. No authentication tokens need to be stored between tests; each test starts from the login page.
 4. The app's `data-test` attributes are stable — SauceDemo is specifically designed for automation practice, so these are intentionally maintained.
 =======
-# Task1-UI_Automation
->>>>>>> c7254f6b98192a2353f2e384c72818618c72e083
